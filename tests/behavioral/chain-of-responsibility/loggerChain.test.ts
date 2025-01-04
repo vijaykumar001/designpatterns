@@ -1,6 +1,9 @@
 import { LoggerChain } from "../../../src/patterns/behavioral/chain-of-responsibility/implementation/loggerChain";
 import { LogLevel } from "../../../src/patterns/behavioral/chain-of-responsibility/enums/logLevel";
 
+/**
+ * Test cases for the logger chain implementation.
+ */
 describe("Logger Chain", () => {
   it("should process logs through the chain", () => {
     const loggerChain = LoggerChain.createLoggerChain();

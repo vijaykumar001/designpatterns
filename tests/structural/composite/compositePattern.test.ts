@@ -1,6 +1,9 @@
 import { File } from '../../../src/patterns/structural/composite/implementation/file';
 import { Directory } from '../../../src/patterns/structural/composite/implementation/directory';
-
+/**
+ * Test cases for the composite design pattern.
+ * 
+ */
 describe('Composite Pattern', () => {
     it('should calculate the size of a directory correctly', () => {
         const file1 = new File('file1.txt', 100);

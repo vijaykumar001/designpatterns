@@ -1,5 +1,7 @@
 import { HomeTheater } from '../../../src/patterns/structural/facade/implementation/homeTheater';
-
+/**
+ * Test cases for the facade design pattern.
+ */
 describe('Facade Pattern', () => {
     it('should watch a movie and shut down the home theater', () => {
         const homeTheater = new HomeTheater();

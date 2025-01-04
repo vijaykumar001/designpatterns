@@ -1,5 +1,9 @@
 import { GlobalStateManager } from '../../../src/patterns/creational/singleton/index';
-
+/**
+ * Test cases for the singleton design pattern.
+ * @group creational
+ * @group singleton
+ */
 describe('GlobalStateManager', () => {
   let stateManager: GlobalStateManager;
 

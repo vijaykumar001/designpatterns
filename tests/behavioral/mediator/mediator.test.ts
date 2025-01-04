@@ -1,6 +1,8 @@
 import { ChatRoomMediator } from "../../../src/patterns/behavioral/mediator/implementations/chatRoomMediator";
 import { User } from "../../../src/patterns/behavioral/mediator/models/user";
-
+/**
+ * Test cases for the mediator design pattern.
+ */
 describe("Mediator Design Pattern", () => {
   it("should allow users to send and receive messages via a mediator", () => {
     const chatRoom = new ChatRoomMediator();

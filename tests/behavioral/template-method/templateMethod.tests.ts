@@ -1,6 +1,8 @@
-import { Circle } from "../../src/patterns/behavioral/template-method/circle";
-import { Square } from "../../src/patterns/behavioral/template-method/square";
-
+import { Circle } from "../../../src/patterns/behavioral/template-method/implementations/circle";
+import { Square } from "../../../src/patterns/behavioral/template-method/implementations/square";
+/**
+ * Test cases for the template method design pattern.
+ */
 describe("Template Method Pattern", () => {
   it("should calculate area and render Circle correctly", () => {
     const circle = new Circle(5);

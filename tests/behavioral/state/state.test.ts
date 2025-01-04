@@ -3,7 +3,9 @@ import { PendingState } from "../../../src/patterns/behavioral/state/implementat
 import { ProcessingState } from "../../../src/patterns/behavioral/state/implementations/processingState";
 import { ShippedState } from "../../../src/patterns/behavioral/state/implementations/shippedState";
 import { DeliveredState } from "../../../src/patterns/behavioral/state/implementations/deliveredState";
-
+/**
+ * Test cases for the state design pattern.
+ */
 describe("State Design Pattern", () => {
   it("should transition through states correctly", () => {
     const order = new Order(new PendingState());

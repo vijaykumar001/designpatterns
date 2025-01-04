@@ -2,7 +2,9 @@ import { NotificationContext } from '../../../src/patterns/behavioral/strategy/i
 import { WhatsAppNotification } from '../../../src/patterns/behavioral/strategy/implementation/whatsAppNotification';
 import { MobileNotification } from '../../../src/patterns/behavioral/strategy/implementation/mobileNotification';
 import { EmailNotification } from '../../../src/patterns/behavioral/strategy/implementation/emailNotification';
-
+/**
+ * Test cases for the strategy design pattern.
+ */
 describe('NotificationContext with Strategy Pattern', () => {
   it('should send WhatsApp notification', async () => {
     const whatsappStrategy = new WhatsAppNotification();

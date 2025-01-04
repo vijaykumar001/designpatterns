@@ -1,11 +1,11 @@
-// tests/behavioral/interpreter/interpreter.test.ts
-
 import { NumberExpression } from "../../../src/patterns/behavioral/interpreter/expressions/numberExpression";
 import { AddExpression } from "../../../src/patterns/behavioral/interpreter/expressions/addExpression";
 import { SubtractExpression } from "../../../src/patterns/behavioral/interpreter/expressions/subtractExpression";
 import { MultiplyExpression } from "../../../src/patterns/behavioral/interpreter/expressions/multiplyExpression";
 import { DivideExpression } from "../../../src/patterns/behavioral/interpreter/expressions/divideExpression";
-
+/**
+ * Test cases for the interpreter design pattern.
+ */
 describe("Interpreter Design Pattern", () => {
   it("should interpret a composite expression", () => {
     const left = new NumberExpression(10);

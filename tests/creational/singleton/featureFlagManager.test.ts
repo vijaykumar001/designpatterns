@@ -1,5 +1,7 @@
 import { FeatureFlagManager } from '../../../src/patterns/creational/singleton/index';
-
+/**
+ * Test cases for the singleton design pattern.
+ */
 describe('FeatureFlagManager', () => {
   let featureFlagManager: FeatureFlagManager;
 

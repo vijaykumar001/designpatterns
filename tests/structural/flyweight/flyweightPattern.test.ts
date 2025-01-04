@@ -1,5 +1,7 @@
 import { CharacterFactory } from '../../../src/patterns/structural/flyweight/implementation/characterFactory';
-
+/**
+ * Test cases for the flyweight design pattern.
+ */
 describe('Flyweight Pattern', () => {
     it('should create and reuse flyweight characters', () => {
         const factory = new CharacterFactory();

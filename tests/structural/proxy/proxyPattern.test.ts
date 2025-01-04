@@ -1,4 +1,7 @@
 import { ImageProxy } from '../../../src/patterns/structural/proxy/implementation/imageProxy';
+/**
+ * Test cases for the proxy design pattern.
+ */
 describe('Proxy Pattern', () => {
     it('should load and display the image through the proxy', () => {
         const imageProxy = new ImageProxy('testImage.jpg');

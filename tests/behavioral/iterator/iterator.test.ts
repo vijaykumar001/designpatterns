@@ -1,6 +1,8 @@
 import { Employee } from "../../../src/patterns/behavioral/iterator/models/employee";
 import { EmployeeCollection } from "../../../src/patterns/behavioral/iterator/implementations/employeeCollection";
-
+/**
+ * Test cases for the iterator design pattern.
+ */
 describe("Iterator Design Pattern", () => {
   it("should iterate over a collection of employees", () => {
     const collection = new EmployeeCollection();

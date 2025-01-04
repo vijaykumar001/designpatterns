@@ -2,7 +2,9 @@ import { SimpleCoffee } from '../../../src/patterns/structural/decorator/impleme
 import { MilkDecorator } from '../../../src/patterns/structural/decorator/implementation/milkDecorator';
 import { SugarDecorator } from '../../../src/patterns/structural/decorator/implementation/sugarDecorator';
 import { WhippedCreamDecorator } from '../../../src/patterns/structural/decorator/implementation/whippedCreamDecorator';
-
+/**
+ * Test cases for the decorator design pattern.
+ */
 describe('Decorator Pattern', () => {
     it('should calculate the cost of a simple coffee correctly', () => {
         const coffee = new SimpleCoffee();

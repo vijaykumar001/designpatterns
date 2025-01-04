@@ -1,6 +1,8 @@
 import { TextEditor } from "../../../src/patterns/behavioral/memento/implementations/textEditor";
 import { TextEditorCaretaker } from "../../../src/patterns/behavioral/memento/implementations/textEditorCaretaker";
-
+/**
+ * Test cases for the memento design pattern.
+ */
 describe("Memento Design Pattern", () => {
   it("should save and restore the state of the text editor", () => {
     const editor = new TextEditor();

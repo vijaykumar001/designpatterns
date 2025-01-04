@@ -1,6 +1,8 @@
 import { Stock } from "../../../src/patterns/behavioral/observer/implementations/stock";
 import { StockSubscriber } from "../../../src/patterns/behavioral/observer/implementations/stockSubscriber";
-
+/**
+ * Test cases for the observer design pattern.
+ */
 describe("Observer Design Pattern", () => {
   it("should notify all subscribers of a stock price change", () => {
     const stock = new Stock("Tesla");

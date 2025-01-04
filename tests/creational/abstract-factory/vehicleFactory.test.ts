@@ -1,5 +1,11 @@
-import { CarFactory, TruckFactory, Vehicle, Car, Truck } from '../../../src/patterns/creational/abstract-factory/index';
-
+import { CarFactory } from '../../../src/patterns/creational/abstract-factory/implementation/carFactory';
+import { TruckFactory } from '../../../src/patterns/creational/abstract-factory/implementation/truckFactory';
+import { Car } from '../../../src/patterns/creational/abstract-factory/implementation/car';
+import { Truck } from '../../../src/patterns/creational/abstract-factory/implementation/truck';
+import { Vehicle } from '../../../src/patterns/creational/abstract-factory/interface/vehicle';
+/**
+ * Test cases for the abstract factory implementation.
+ */
 describe('VehicleFactory', () => {
     it('should create a Car with Petrol engine', () => {
         const factory = new CarFactory();

@@ -21,7 +21,7 @@ function clientCode() {
     const student = studentBuilder
         .setName('John Doe')
         .setAge(16)
-        .setGrade(Grade.A)
+        .setGrade(Grade.ONE.toString())
         .setSubjects(['Math', 'Science', 'History'])
         .build();
 
@@ -43,10 +43,10 @@ const studentBuilder = new StudentBuilderImpl();
 const student: Student = studentBuilder
 .setName('Jane Doe')
 .setAge(15)
-.setGrade(Grade.B)
+.setGrade(Grade.TWO.toString())
 .setSubjects(['English', 'Math'])
 .build();
-expect(student.getDetails()).toBe('Name: Jane Doe, Age: 15, Grade: B, Subjects: English, Math');
+expect(student.getDetails()).toBe('Name: Jane Doe, Age: 15, Grade: 2, Subjects: English, Math');
 });
 });
 ```

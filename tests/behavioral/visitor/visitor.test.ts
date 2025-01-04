@@ -2,7 +2,9 @@ import { Employee } from "../../../src/patterns/behavioral/visitor/elements/empl
 import { Contractor } from "../../../src/patterns/behavioral/visitor/elements/contractor";
 import { PartTimeEmployee } from "../../../src/patterns/behavioral/visitor/elements/partTimeEmployee";
 import { BonusVisitor } from "../../../src/patterns/behavioral/visitor/implementation/visitor";
-
+/**
+ * Test cases for the visitor design pattern.
+ */
 describe("Visitor Design Pattern Test", () => {
     it("should calculate bonuses correctly", () => {
         const employees = [
