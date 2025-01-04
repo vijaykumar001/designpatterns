@@ -229,14 +229,14 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 - Update documentation.
 - Submit a pull request.
 
-# Best Practices
+### Best Practices
 - Follow SOLID principles.
 - Write comprehensive tests.
 - Document pattern usage.
 - Include real-world examples.
 - Maintain consistent structure.
 
-# Additional Resources
+### Additional Resources
 - Design Patterns Book (Gang of Four)
 - TypeScript Documentation
 - Jest Testing Framework
