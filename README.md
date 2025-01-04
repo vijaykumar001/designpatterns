@@ -17,6 +17,7 @@ Design patterns are proven solutions to common software design problems. This re
 
 ## Project Structure
 
+```
 src/
 ├── patterns/
 │   ├── behavioral/
@@ -25,15 +26,18 @@ src/
 │   └── index.ts
 ├── index.ts
 └── README.md
+```
 
 ### Each pattern follows this structure:
 
+```
 pattern-name/
 ├── interfaces.ts # Pattern interfaces
 ├── implementation.ts # Concrete implementations
 ├── example.ts # Usage examples
 ├── README.md # Pattern documentation
 └── tests/ # Pattern tests
+```
 
 - **src/patterns/**: Contains the implementation of various design patterns.
 - **tests/**: Contains test cases for each design pattern implementation.
@@ -73,9 +77,9 @@ pattern-name/
 ## Design Patterns Included
 ### Behavioral Patterns
 1. Chain of Responsibility
-Purpose: Pass requests along a chain of handlers.
-When to use: For processing different kinds of requests in various ways.
-Example: src/patterns/behavioral/chain-of-responsibility
+- Purpose: Pass requests along a chain of handlers.
+- When to use: For processing different kinds of requests in various ways.
+- Example: src/patterns/behavioral/chain-of-responsibility
 
 2. Command
 Purpose: Turn requests into stand-alone objects.
