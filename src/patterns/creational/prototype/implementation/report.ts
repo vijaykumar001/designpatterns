@@ -1,5 +1,11 @@
 import { Document } from '../interface/document';
 
+/**
+ * Implementation of the Report prototype.
+ * 
+ * @class
+ * @implements {Document}
+ */
 export class Report implements Document {
     private title: string;
     private content: string;

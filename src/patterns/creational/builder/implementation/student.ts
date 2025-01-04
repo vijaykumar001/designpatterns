@@ -1,3 +1,9 @@
+/**
+ * Class for the Student class.
+ * 
+ * @class
+ * @exports {Student} - The Student class
+ */
 export class Student {
     private name: string;
     private age: number;

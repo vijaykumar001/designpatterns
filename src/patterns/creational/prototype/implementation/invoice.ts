@@ -1,5 +1,11 @@
 import { Document } from '../interface/document';
 
+/**
+ * Implementation of the Invoice prototype.
+ * 
+ * @class
+ * @implements {Document}
+ */
 export class Invoice implements Document {
     private invoiceNumber: string;
     private amount: number;

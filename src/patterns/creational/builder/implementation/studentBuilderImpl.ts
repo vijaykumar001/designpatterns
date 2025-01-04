@@ -1,6 +1,11 @@
 import { StudentBuilder } from '../interface/studentBuilder';
 import { Student } from './student';
-
+/**
+ * Implementation of the StudentBuilder interface.
+ * 
+ * @class
+ * @implements {StudentBuilder}
+ */
 export class StudentBuilderImpl implements StudentBuilder {
     private name: string = '';
     private age: number = 0;

@@ -1,3 +1,9 @@
+/**
+ * Enum for the Grade class.
+ * 
+ * @enum {number}
+ * @exports {Grade} - The Grade enum
+ */
 export enum Grade {
     ONE = 1,
     TWO = 2,

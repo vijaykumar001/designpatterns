@@ -1,6 +1,11 @@
 import { Vehicle } from '../interface/vehicle';
 import { Engine } from '../interface/engine';
-
+/**
+ * Class for the Truck class.
+ * 
+ * @class
+ * @implements {Vehicle}
+ */
 export class Truck implements Vehicle {
     private engine: Engine;
 
