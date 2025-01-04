@@ -1,4 +1,4 @@
-import { CharacterFactory } from '../../../src/patterns/structural/fly-weight/index';
+import { CharacterFactory } from '../../../src/patterns/structural/flyweight/implementation/characterFactory';
 
 describe('Flyweight Pattern', () => {
     it('should create and reuse flyweight characters', () => {
