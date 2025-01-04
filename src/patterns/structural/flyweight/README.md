@@ -38,6 +38,15 @@ function clientCode() {
 // Example usage
 clientCode();
 ```
+# Expected Output
+```
+Character: A, Font: Arial, Size: 12, Color: black, Position: 0
+Character: B, Font: Arial, Size: 12, Color: black, Position: 1
+Character: C, Font: Arial, Size: 12, Color: black, Position: 2
+Character: A, Font: Arial, Size: 12, Color: black, Position: 3
+true
+```
+
 6. **flyweightPattern.test.ts**
 ```ts
 typescript

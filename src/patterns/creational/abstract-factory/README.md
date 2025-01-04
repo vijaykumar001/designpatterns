@@ -12,12 +12,6 @@ This project demonstrates the Abstract Factory Design Pattern in TypeScript by c
 
 ## Example
 ```ts
-const carFactory = new CarFactory();
-const car = carFactory.createVehicle();
-car.drive();
-```
-
-```ts
 import { clientCode } from './src/patterns/creational/abstract-factory/index';
 clientCode();
 
