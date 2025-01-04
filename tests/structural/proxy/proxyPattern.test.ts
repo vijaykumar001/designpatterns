@@ -1,4 +1,4 @@
-import { ImageProxy } from '../../../src/patterns/structural/proxy/index';
+import { ImageProxy } from '../../../src/patterns/structural/proxy/implementation/imageProxy';
 describe('Proxy Pattern', () => {
     it('should load and display the image through the proxy', () => {
         const imageProxy = new ImageProxy('testImage.jpg');

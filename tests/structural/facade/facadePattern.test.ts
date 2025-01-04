@@ -1,4 +1,5 @@
-import { HomeTheater } from '../../../src/patterns/structural/facade/index';
+import { HomeTheater } from '../../../src/patterns/structural/facade/implementation/homeTheater';
+
 describe('Facade Pattern', () => {
     it('should watch a movie and shut down the home theater', () => {
         const homeTheater = new HomeTheater();

@@ -1,4 +1,7 @@
-import { AudioPlayer, VideoPlayer, Mp3Format, Mp4Format } from '../../../src/patterns/structural/bridge/index';
+import { AudioPlayer } from '../../../src/patterns/structural/bridge/implementation/audioPlayer';
+import { VideoPlayer } from '../../../src/patterns/structural/bridge/implementation/videoPlayer';
+import { Mp3Format } from '../../../src/patterns/structural/bridge/implementation/mp3Format';
+import { Mp4Format } from '../../../src/patterns/structural/bridge/implementation/mp4Format';
 
 describe('Bridge Pattern', () => {
     it('should play audio in MP3 format', () => {

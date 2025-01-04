@@ -1,4 +1,5 @@
-import { File, Directory } from '../../../src/patterns/structural/composite/index';
+import { File } from '../../../src/patterns/structural/composite/implementation/file';
+import { Directory } from '../../../src/patterns/structural/composite/implementation/directory';
 
 describe('Composite Pattern', () => {
     it('should calculate the size of a directory correctly', () => {

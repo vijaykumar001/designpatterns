@@ -1,4 +1,7 @@
-import { MilkDecorator, SimpleCoffee, SugarDecorator, WhippedCreamDecorator } from '../../../src/patterns/structural/decorator/index';
+import { SimpleCoffee } from '../../../src/patterns/structural/decorator/implementation/simpleCoffee';
+import { MilkDecorator } from '../../../src/patterns/structural/decorator/implementation/milkDecorator';
+import { SugarDecorator } from '../../../src/patterns/structural/decorator/implementation/sugarDecorator';
+import { WhippedCreamDecorator } from '../../../src/patterns/structural/decorator/implementation/whippedCreamDecorator';
 
 describe('Decorator Pattern', () => {
     it('should calculate the cost of a simple coffee correctly', () => {

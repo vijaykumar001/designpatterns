@@ -1,8 +1,10 @@
 import { CharacterFactory } from './implementation/characterFactory';
-/*
-* Flyweight Pattern 
-* 
-*/
+/**
+ * Main entry point for the flyweight implementation.
+ * 
+ * @module
+ * @exports {CharacterFactory} - The CharacterFactory class
+ */
 export function clientCode() {
     const factory = new CharacterFactory();
 

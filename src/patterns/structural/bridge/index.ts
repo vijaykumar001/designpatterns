@@ -1,11 +1,25 @@
-/*
-* Bridge Pattern
-* Bridge is a structural design pattern that divides business logic or heavy class into separate class hierarchies that can be developed independently.
-* Bridge is a design pattern that allows classes to work together that could not otherwise because of incompatible interfaces.
-* Bridge is a design pattern that allows two incompatible interfaces to work together.
-*/
+import { AudioPlayer } from './implementation/audioPlayer';
+import { VideoPlayer } from './implementation/videoPlayer';
+import { Mp3Format } from './implementation/mp3Format';
+import { Mp4Format } from './implementation/mp4Format';
+/**
+ * Main entry point for the bridge implementation.
+ * 
+ * @module
+ * @exports {AudioPlayer} - The AudioPlayer class
+ * @exports {VideoPlayer} - The VideoPlayer class
+ * @exports {Mp3Format} - The Mp3Format class
+ * @exports {Mp4Format} - The Mp4Format class
+ */
+function clientCode() {
+    const audioPlayer = new AudioPlayer();
+    const mp3Format = new Mp3Format();
+    audioPlayer.play(mp3Format); // Playing audio in format: MP3
 
-export { VideoPlayer } from './implementation/videoPlayer';
-export { AudioPlayer } from './implementation/audioPlayer';
-export { Mp3Format } from './implementation/mp3Format';
-export { Mp4Format } from './implementation/mp4Format';
+    const videoPlayer = new VideoPlayer();
+    const mp4Format = new Mp4Format();
+    videoPlayer.play(mp4Format); // Playing video in format: MP4
+}
+
+// Example usage
+clientCode();

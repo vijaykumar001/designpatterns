@@ -1,4 +1,7 @@
-import { PaymentAdapter, NewPaymentProcessor, LegacyPaymentProcessor } from '../../../src/patterns/structural/adapter/index';
+import { PaymentAdapter } from '../../../src/patterns/structural/adapter/implementation/paymentAdapter';
+import { NewPaymentProcessor } from '../../../src/patterns/structural/adapter/implementation/newPaymentProcessor';
+import { LegacyPaymentProcessor } from '../../../src/patterns/structural/adapter/implementation/legacyPaymentProcessor';
+
 /*
 * PaymentAdapter Test
 *
