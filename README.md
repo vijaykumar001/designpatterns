@@ -21,10 +21,14 @@ Design patterns are proven solutions to common software design problems. This re
 src/
 ├── patterns/
 │   ├── behavioral/
+│   │   ├──design-pattern 
+│   │      ├──index.ts      
 │   ├── creational/
+│   │   ├──design-pattern 
+│   │      ├──index.ts
 │   ├── structural/
-│   └── index.ts
-├── index.ts
+│   │   ├──design-pattern 
+│   │      ├──index.ts
 └── README.md
 ```
 
